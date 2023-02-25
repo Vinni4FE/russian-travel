@@ -1,5 +1,5 @@
 .cover__background {
-  width: 100vw;
+  width: 100%;
   max-width: 1184px;
   min-height: 740px;
   background: url(../../../images/cover-trains.jpg) center / contain no-repeat;
@@ -10,7 +10,7 @@
   justify-content: center;
   color: #FFF;
   text-decoration: none;
-  position: relative;  
+  position: relative;
 }
 
 .cover__background::before {
@@ -41,14 +41,13 @@
 
 @media screen and (max-width: 768px) {
   .cover__background {
-  min-height: 480px;
+    min-height: 480px;
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .cover__background {
-  min-height: 200px;
-  
+    min-height: 200px;
   }
 }
