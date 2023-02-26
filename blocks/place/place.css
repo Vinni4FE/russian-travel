@@ -1,5 +1,4 @@
 .place {
-  width: 100%;
 	margin: 0;
   padding: 0 0 80px;
   display: grid;
@@ -15,7 +14,7 @@
 
 /* Media */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place {
     grid-gap: 48px 32px;
   }

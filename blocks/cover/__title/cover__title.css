@@ -6,13 +6,14 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  justify-self: end;
   position: relative;
   z-index: 1;
 }
 
 /* Media */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;

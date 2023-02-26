@@ -5,13 +5,15 @@
   flex-direction: column;
   margin: 0 auto;
   padding: 92px 0;
+  color: #FFF;
+  min-height: 740px;
+
 }
 
 /* Media */
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100%;
     min-height: 640px;
     padding: 92px 0;
     margin: 0;
@@ -21,15 +23,15 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-  min-height: 480px;
-  padding: 90px 0 88px;
+    min-height: 480px;
+    padding: 90px 0 88px;
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-height: 200px;
+    min-height: 200px;
     padding: 66px 0 64px;
   }
 }
